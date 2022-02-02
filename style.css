@@ -1,11 +1,11 @@
 *{
     box-sizing: border-box;
     padding: 0;
+
 }
 
 html{
     background-color: black;
-
 }
 
 .first-section{
@@ -24,7 +24,9 @@ html{
     margin-right: 1em;
 
 }
-
+body{
+    margin: 0;
+}
 main{
     width: 90vw;
     margin: 0 auto;
@@ -35,7 +37,7 @@ main{
     height: 85vh;
     justify-content: center;
     align-content: space-around;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .card{
