@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html{
+    background-color: black;
+
+}
+
+.first-section{
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    
+}
+
+.btn-top{
+    border-radius: 5%;
+    background-color: gray;
+    padding: 0.2em;
+    margin-right: 1em;
+
+}
+
+main{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 10px;
+    height: 85vh;
+    justify-content: center;
+    align-content: space-around;
+    overflow-y: scroll;
+}
+
+.card{
+    position: relative;
+    flex-grow: 1;
+    flex-basis: 13%;
+}
+.name{
+    position: absolute;
+    left: 0%;
+    bottom: 5px;
+    padding: 0.5em;
+    background-color: rgba(20, 20, 20, 0.5);
+    color: white;
+}
+
+.menu-bar{
+    height: 10vh;
+    background-color:rgb(34, 34, 34);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+li{
+    text-align: center;
+    margin: 8px;
+}
+
+.btn-red{
+    color: white;
+    background-color: salmon;
+    margin-right: 8px;
+    padding: 0.5em;
+}
+.green{
+    color: green;
+}
